@@ -1,6 +1,6 @@
-# <img src="assets/favicono7.png" width="25" alt="Events7 Logo" /> Events7
+# NESTJS BACKEND EXAMPLE APP
 
-Hi. Welcome to the Events7 Fullstack Web Developer Expertise Test. This readme is mostly generated, but i have added some caveats that could be important and clarify some things at the end. Building this was quite fun. Hope to hear from you soon so we can talk the project over.
+Hi. This is the begging stage of a backend I had to build for a project and server simply as an example. I have added some caveats that could be important and clarify some things regarding my decision making at the end. The original intention behind this dasboard was user acquisition event tracking as can be seen from the code structure. The project is built with NestJs[https://nestjs.com] which is very similar to the more popular expressJs, but more opinionated. At the time I chose it for its structure and strong typing which I still appreciate.
 
 ## 🚀 Features
 
@@ -54,8 +54,8 @@ src/
 1. **Clone the repository**
 
    ```bash
-   git clone git@github.com:vilarb/events7-be.git
-   cd events7-be
+   git clone git@github.com:vilarb/nestjs-be-example.git
+   cd nestjs-be-example
    ```
 
 2. **Create environment file and add the correct values**
@@ -164,7 +164,7 @@ The container uses postgres, but is compatible with other standard mysql based d
 
 ### Authentication
 
-The app uses the https://europe-west1-o7tools.cloudfunctions.net/fun7-ad-partner-expertise-test to verify if the user has CUD priviliges for the event entity. While testing the endpoint I realized that it is quite unreliable and changes often (sometimes just commits seppuku and sometimes changes parameters from camel case to snake case). Therefore everything that the API returns other than {"ads": "sure, why not"} is treated as a failed authorization and throws a ForbiddenException.
+The app uses an external endpoint to verify if the user has CUD priviliges for the event entity. While testing the endpoint I realized that it is quite unreliable and changes often (sometimes just commits seppuku and sometimes changes parameters from camel case to snake case). Therefore everything that the API returns other than {"ads": "sure, why not"} is treated as a failed authorization and throws a ForbiddenException.
 
 ### Getting the IP address
 
