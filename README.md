@@ -1,6 +1,6 @@
 # NESTJS BACKEND EXAMPLE APP
 
-Hi. This is the begging stage of a backend I had to build for a project and server simply as an example. I have added some caveats that could be important and clarify some things regarding my decision making at the end. The original intention behind this dasboard was user acquisition event tracking as can be seen from the code structure. The project is built with NestJs[https://nestjs.com] which is very similar to the more popular expressJs, but more opinionated. At the time I chose it for its structure and strong typing which I still appreciate.
+Hi. This is the begging stage of a backend I had to build for a project and server simply as an example. I have added some caveats that could be important and clarify some things regarding my decision making at the end. The original intention behind this dasboard was user acquisition event tracking as can be seen from the code structure. The project is built with [NestJs](https://nestjs.com) which is very similar to the more popular expressJs, but more opinionated. At the time I chose it for its structure and strong typing which I still appreciate.
 
 ## 🚀 Features
 
